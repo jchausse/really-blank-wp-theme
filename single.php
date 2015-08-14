@@ -7,7 +7,7 @@
      	<h1 class="article_title" itemprop="name"><? the_title(); ?></h1>
 
       <header class="article_meta">
-        <time datetime="<? the_date() ?>" itemprop="datePublished"><? date_post() ?></time>
+        <div class="meta"><? the_date("F jS, Y"); ?></div>
         <span itemprop="articleSection"><? the_tags( '', ' · ', '' ) ?></span>
       </header>
 

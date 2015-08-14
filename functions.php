@@ -27,10 +27,6 @@ if ( function_exists('register_sidebar') )
   )
 );
 
-function date_post() {
-  echo "hace " . human_time_diff( get_the_time('U'), current_time( 'timestamp' ) );
-}
-
 if (!isset($content_width))
   $content_width = 900;
 
